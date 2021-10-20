@@ -15,6 +15,6 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Romaita Maria Simaibang
 <br>
-NIM   :
+NIM   : 119140039
