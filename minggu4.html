@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script typa="text/javascript" ></script>
+</head>
+<body>
+    <form method="post" id="mahasiswa">
+        <label>NIM</label>
+        <input type="number" name="nim"><br>
+        <label>Nama</label>
+        <input type="text" name="nama"><br>
+        <label>Prodi</label>
+        <select name="prodi">
+            <option value="IF">Teknik Informatika</option>
+            <option value="EL">Teknik Pertambangan</option>
+            <option value="SI">Teknik Geologi</option>
+            <option value="TG">Teknik Kimis</option>
+            <option value="MA">Matematika</option>
+        </select><br>
+        <label>Angkatan</label>
+        <input type="number" name="angkatan"><br>
+    </form>
+    <button id="btn_tampil">Tampilkan</button>
+    <hr>
+    <div id="tampil_data"></div>
+
+    <script>
+        $(document).ready(function(){
+            $('#tampil_data');
+            $('#btn_tampil').click(function(){
+                var data = $('#data_mahasiswa').serialize();
+                $.ajax({
+                    type : 'POST',
+                    data : data,
+                    cache : false,
+                    success : function(data){
+                        $('#tampil_data');
+                    }
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
