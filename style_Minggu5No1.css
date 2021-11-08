@@ -1,0 +1,45 @@
+body{
+	background: #d8cc96;
+	font-family: sans-serif;
+}
+ 
+.container{
+    width: 335px;
+    margin: 100px auto;
+    background: chocolate;
+    padding: 10px 20px 50px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px 0px #D1D1D1;
+}
+.input{
+    width: 300px;
+    margin: 5px;
+    border: none;
+    font-size: 16pt;
+    border-radius: 5px;
+    padding: 10px;
+}
+.opt{
+    font-size: 16pt;
+    width: 215px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.tombol{
+    background: #cfcd39;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #eee;
+	font-size: 15pt;
+	border-bottom:4px solid #BF3D3D;
+}
+.judul{
+    text-align: center;
+    color: rgb(7, 10, 10);
+    font-weight: normal;
+}
