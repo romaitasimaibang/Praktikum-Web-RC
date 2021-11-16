@@ -1,0 +1,45 @@
+body{
+	background: #b7abda;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+.container{
+    width: 400px;
+    margin: 50px;
+    background: rgb(209, 209, 226);
+    padding: 10px 20px 50px 20px;
+    border-radius: 2px;
+    box-shadow: auto #cfccdd;
+}
+.input{
+    width: 300px;
+    margin: 5px;
+    border: none;
+    font-size: 16pt;
+    border-radius: 3px;
+    padding: 15px;
+}
+.opt{
+    font-size: 16pt;
+    width: 215px;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+}
+.tombol{
+    background: #37353f;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: rgb(195, 236, 229);
+	font-size: 15pt;
+	border-bottom:4px solid #4826c4;
+}
+.judul{
+    text-align: left;
+    color: rgb(2, 2, 2);
+    font-weight: normal;
+}
